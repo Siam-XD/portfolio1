@@ -18,6 +18,9 @@
     position: fixed;
     width: 100%;
 }
+.toggler-bg {
+    background-color: #38BDF8;
+}
 /* hero */
 #hero, nav, footer {
     /* background-color: #F5FCFF; */
