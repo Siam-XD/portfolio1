@@ -1,0 +1,76 @@
+/* header */
+.logo {
+    background: linear-gradient(to right, #38BDF8, #65d1ff);
+    background-clip: text;
+    color: transparent;
+}
+.nav-button {
+    border: 1px solid white !important;
+    color: white;
+}
+.nav-button:hover {
+    background-color: rgb(236, 234, 255);
+}
+.nav-anchors > li > a:hover {
+    color: #94A3B8 !important;
+}
+.nav-position {
+    position: fixed;
+    width: 100%;
+}
+/* hero */
+#hero, nav, footer {
+    /* background-color: #F5FCFF; */
+    /* background-color: #371ba7; */
+    background: linear-gradient(135deg, #0F172A, #1E293B);
+}
+#hero > .container {
+    padding-top: 98px !important;
+}
+.hero-text {
+    color: #F8FAFC;
+}
+.hero-text > h1 > span {
+    color: #38BDF8;
+}
+img {
+    width: 100%;
+    object-fit: contain;
+}
+/* skills section */
+.skill-text {
+    margin: 90px 0;
+}
+.expertise > div {
+    background-color: #a2dffc49;
+    padding-top: 2rem !important;
+    width: 300px !important;
+}
+.expertise > div > span {
+    box-shadow: 0 0 16px hsla(0, 0%, 0%, 0.103);
+    padding: 16px 15px;
+}
+/* portfolio section */
+.project > div {
+    box-shadow: 0 0 32px hwb(0 0% 100% / 0.158);
+    padding: 0;
+    width: 370px;
+}
+/* testimonial section */
+.review  > div {
+    width: 370px;
+}
+.customer > div:first-child {
+    width: 74px;
+}
+/* footer */
+footer ul {
+    list-style: none;
+}
+footer a {
+    color: white;
+    text-decoration:none;
+}
+.social {
+    padding: 0 !important;
+}
