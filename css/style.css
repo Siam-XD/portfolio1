@@ -14,17 +14,14 @@
 .nav-anchors > li > a:hover {
     color: #94A3B8 !important;
 }
-.nav-position {
-    position: fixed;
-    width: 100%;
+nav {
+    width: 100% !important;
 }
 .toggler-bg {
     background-color: #38BDF8;
 }
 /* hero */
 #hero, nav, footer {
-    /* background-color: #F5FCFF; */
-    /* background-color: #371ba7; */
     background: linear-gradient(135deg, #0F172A, #1E293B);
 }
 #hero > .container {
@@ -35,10 +32,6 @@
 }
 .hero-text > h1 > span {
     color: #38BDF8;
-}
-img {
-    width: 100%;
-    object-fit: contain;
 }
 /* skills section */
 .skill-text {
@@ -57,12 +50,8 @@ img {
 .project > div {
     box-shadow: 0 0 32px hwb(0 0% 100% / 0.158);
     padding: 0;
-    width: 370px;
 }
 /* testimonial section */
-.review  > div {
-    width: 370px;
-}
 .customer > div:first-child {
     width: 74px;
 }
@@ -76,4 +65,12 @@ footer a {
 }
 .social {
     padding: 0 !important;
+}
+/* common */
+img {
+    width: 100%;
+    object-fit: contain;
+}
+.container {
+    overflow: hidden;
 }
